@@ -99,3 +99,5 @@ theme: vexo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+github_username: afuryboy
