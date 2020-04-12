@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: Afuryboy
+subtitle: Afuryboy's blog
+description: 前端技术文章、vue、react、mobx、java、flutter
+keywords: vue、react
+author: Afuryboy
+language: zh
 timezone: ''
 
 # URL
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: vexo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
