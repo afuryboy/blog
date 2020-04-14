@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
 
-echo "deploy start..."
-git add .
-git commit -m $1
-echo "git提交注释:$1"
-git push origin master
-echo "deploy end..."
+commitmsg=$1
+if [ -n "$commitmsg" ]; then
+   echo "deploy start..."
+   git add -A
+   git commit -m"${commitmsg}"
+   git pull
+   git status
+   git push origin master
+   echo "deploy push success"
+else
+   echo "请添加注释,再重新点击Deploy按钮"
+fi
