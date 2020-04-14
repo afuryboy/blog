@@ -1,8 +1,10 @@
----
 title: mockjs实践
 tag: mockjs
+tags:
+  - mockjs
+categories: []
+date: 2020-04-12 15:21:00
 ---
-
 # 使用背景
 > 入职新公司不久， 这边的开发模式也是前后端分离，在后台接口没有开发完成的情况下，而前端工作已经做完了，等接口是不可能的，这边的解决方案是在前端用node再起一个server服务,只做接口和数据，没用任何业务代码。我是不太喜欢这种方式（原因参考弊端），所以在新项目中，我是力荐使用mockjs来代替这种造伪数据的方式。
 
@@ -77,3 +79,5 @@ Random.extend({
 
 # 参考资料
 [mockjs文档](https://github.com/nuysoft/Mock/wiki)
+
+test

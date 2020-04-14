@@ -101,3 +101,10 @@ deploy:
   type: ''
 
 github_username: afuryboy
+
+# hexo-admin authentification
+admin:
+  username: qiankun
+  password_hash: $2a$10$efxGx/gpM9lQ42G9bu76lO5tVIGDD1g6lhu5.k2yxk5rLhKGgdPeS
+  secret: '123456789'
+  deployCommand: './hexo-deploy.sh'
