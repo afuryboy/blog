@@ -103,6 +103,7 @@ deploy:
 github_username: afuryboy
 
 # hexo-admin authentification
+# qiankun123
 admin:
   username: qiankun
   password_hash: $2a$10$efxGx/gpM9lQ42G9bu76lO5tVIGDD1g6lhu5.k2yxk5rLhKGgdPeS
