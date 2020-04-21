@@ -1,13 +1,12 @@
 title: charles 修改http请求的两种方法
 author: Afuryboy
-date: 2020-04-21 20:12:04
 tags:
+  - charles
+categories:
+  - 测试
+  - charles
+date: 2020-04-21 20:12:00
 ---
----
-title: charles 修改http请求的两种方法
-tag: charles
----
-
 # 应用场景
 
 > 前端在调试后端的一个接口时，正常情况下，接口status返回的是200, 有的时候我们需要验证其他的status时，比如：500，这种场景，其实是无法在前端代码中去实现的。这个时候我们就需要用到 charles去代理我们的请求。通过charles去改变接口的status，下面我就讲一下两种我测试用过的方法。
